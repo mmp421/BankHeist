@@ -29,6 +29,9 @@ app.get("/draw", (req, res) => {
 
 
 // actual API calls
+
+//hi hi hi hi
+
 app.get("/move/:xy", async (req, res) => {
     let temp = req.params.xy.split(',');
     console.log(temp);
